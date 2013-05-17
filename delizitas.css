@@ -191,6 +191,10 @@ a:hover {
   padding: 0;
   margin: 0;
 }
+#content-center #bnavi .bn_item_wrap .bn_item table tr td img {
+  text-align: left;
+  padding: 0;
+}
 
 #content-right {
   width: auto;
