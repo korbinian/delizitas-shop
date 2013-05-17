@@ -167,6 +167,11 @@ a:hover {
 
 #content-center {
   background: white !important;
+  width: auto;
+}
+
+#content-right {
+  width: auto;
 }
 
 #content-left .ebene1 a, #content-left .ebene2 a, #content-left .ebene3 a, #content-left .ebene4 a {

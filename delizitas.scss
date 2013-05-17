@@ -186,11 +186,12 @@ a:hover {
     }
 
     #content-center {
-
+        background: #fff !important;
+        width: auto;
     }
 
     #content-right {
-
+        width: auto;
     }
 
     .footer {
@@ -218,9 +219,6 @@ a:hover {
 
 
 
-#content-center {
-    background: #fff !important;
-}
 
 
 #content-left .ebene1 a, #content-left .ebene2 a, #content-left .ebene3 a, #content-left .ebene4 a {
