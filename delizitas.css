@@ -411,7 +411,7 @@ td {
 }
 
 .round {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .highlight {
@@ -467,6 +467,7 @@ td {
 
 .cbutton, .sbutton {
   background: none;
+  display: block;
 }
 
 .al_button {
@@ -659,4 +660,9 @@ td {
   float: none;
   width: auto;
   heigh: auto;
+}
+#content-right #login {
+  background-color: transparent;
+  background-image: none;
+  padding: 0;
 }
