@@ -702,11 +702,11 @@ td {
   width: 100%;
 }
 #content-right #aktionen .aktion_name {
-  float: left;
+  float: right;
   width: 68%;
 }
 #content-right #aktionen .aktion_image {
-  float: right;
+  float: left;
   width: 32%;
   height: auti;
   text-align: left;
