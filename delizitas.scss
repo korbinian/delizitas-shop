@@ -35,14 +35,14 @@ br, *:empty {
 }
 
     #header {
-        padding-bottom: 1em;
+        padding-bottom: $p-m;
         background: url('http://delizitas.de/onlineshop/logo.png');
         height: auto;
-        width: 980px;
+        width: $page-width;
         background-repeat: no-repeat;
         a {
             display: block;
-            width: $page-width;
+            width: auto;
             height: 100px;
         }
     }
