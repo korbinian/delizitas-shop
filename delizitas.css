@@ -187,6 +187,10 @@ a:hover {
   background-color: #fff;
   background: lime;
 }
+#content-center #bnavi .bn_item_wrap .bn_item table {
+  width: auto;
+  height: auto;
+}
 #content-center #bnavi .bn_item_wrap .bn_item table tr td a {
   padding: 0;
   margin: 0;
