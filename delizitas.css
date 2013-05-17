@@ -151,6 +151,7 @@ a:hover {
   padding: 0;
   float: left;
   display: block;
+  border: 0 solid;
 }
 #content-left .cBoxWrap .menu_wrap .pages.menu_act {
   font-weight: bold;
