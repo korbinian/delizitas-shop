@@ -729,3 +729,8 @@ img {
   text-align: left;
   position: static;
 }
+
+.google {
+  position: absolute;
+  left: -999em;
+}
