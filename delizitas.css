@@ -1,1 +1,234 @@
-body{background:#f0ebd6 url("http://delizitas.de/onlineshop/satin-light.png") !important;border-top:2px solid #4f321f}body,td,a,.pages .ebene2 a{font-family:georgia,serif;color:#51361f !important}#main *{font-size:1em !important}#main{width:980px;height:90%;border:0 solid #fff;padding:1em}#header{height:auto;background:transparent;padding-bottom:1em;background:url("http://delizitas.de/onlineshop/logo.png") !important;height:99px;width:980px;background-repeat:no-repeat !important}#header a{display:block;width:980px;height:100px}#content-left,#content-center,#content-right{padding-top:0.5em !important;border-top:2px solid #4f321f;background:rgba(255,255,255,0.5) !important;padding:1em}#content-center{background:#fff !important}#content-left .cBoxWrap{border-radius:0;padding:1em;border:0 solid #efefef;background:transparent !important}#navigation_wrap{background:transparent !important}#content-left .ebene1 a,#content-left .ebene2 a,#content-left .ebene3 a,#content-left .ebene4 a{background-color:transparent !important;color:inherit !important;border-bottom-color:transparent}.pages a{display:block;padding-bottom:0;padding-top:0;line-height:2}.ebene3 a,.ebene4 a{background-color:tra;color:#000000!important;border-bottom-color:transparent;border-left:0 solid #fff !important;border-right:0 solid #fff !important}#content-left .menu_wrap .pages a:hover{background-color:#fff !important;color:#000}.pages a:hover,.pages:hover{text-decoration:none;-moz-box-shadow:0px 0px 0 #888;-webkit-box-shadow:0px 0px 0 #888;box-shadow:0px 0px 0 #888}.headerLogo{display:none}.userLeiste,.navileiste{background:transparent !important;border:0 solid !important;padding:1em}.navileiste td{background:transparent !important;padding-left:1rem}#rootline{background:transparent !important}.switch_view{text-align:left !important}.footer{background:transparent !important;padding:1em;color:#4f321f !important}.se{display:none}.google{position:absolute;left:100%}#switchMobile{padding:1em !important;text-align:center}#switchMobile span{color:#4f321f !important}#suche form{position:relative}input.link,button[type="submit"]{background:#cf6916;color:#fff;border:0 solid;border-radius:2px}#suche form button[type="submit"]{position:absolute;top:0;right:0}.input{color:#000;border:1px solid #eee;font-weight:bold;overflow:hidden;width:170px;padding-top:0;padding-bottom:0;line-height:1}#suche_wrap input,#suche_wrap .cbutton{display:inline-block;height:auto;padding:.5em;margin:0}.bn_item{background-color:#fff;border-top:2px solid #ce6a18}.bn_item:hover{border-top:2px solid #4f321f}.round{border-radius:0px}.produktListe_item{background:#fff}#login{background-color:transparent;padding-top:0;padding-left:0}.cbutton span{background:none !important;padding:0;display:inline-block}.cbutton:hover{border:0 solid}.cbutton,.sbutton,.input{-webkit-border-radius:0;border-radius:0;padding:.5em}.cbutton{background:#ce6a18 !important;color:#fff !important;border-radius:2px}.cbutton:hover,.cbutton:active{border:0 solid #fff;-moz-box-shadow:0px 0px 0 #444;-webkit-box-shadow:0px 0px 0 #444;box-shadow:0px 0px 0 #444}.cbutton,.sbutton{background:none left repeat-x;border:0 solid}#login .input{width:95%}
+body {
+  background: #f0ebd6 url("http://delizitas.de/onlineshop/satin-light.png") !important;
+  border-top: 2px solid #4f321f;
+}
+
+body, td, a, .pages .ebene2 a {
+  font-family: georgia, serif;
+  color: #51361f !important;
+}
+
+#main * {
+  font-size: 1em !important;
+}
+
+#main {
+  width: 980px;
+  height: 90%;
+  border: 0 solid white;
+  padding: 1em;
+}
+
+#header {
+  height: auto;
+  background: transparent;
+  padding-bottom: 1em;
+  background: url("http://delizitas.de/onlineshop/logo.png") !important;
+  height: 99px;
+  width: 980px;
+  background-repeat: no-repeat !important;
+}
+
+#header a {
+  display: block;
+  width: 980px;
+  height: 100px;
+}
+
+#content-left, #content-center, #content-right {
+  padding-top: 0.5em !important;
+  border-top: 2px solid #4f321f;
+  background: rgba(255, 255, 255, 0.5) !important;
+  padding: 1em;
+}
+
+#content-center {
+  background: white !important;
+}
+
+#content-left .cBoxWrap {
+  border-radius: 0;
+  padding: 1em;
+  border: 0 solid #efefef;
+  background: transparent !important;
+}
+
+#navigation_wrap {
+  background: transparent !important;
+}
+
+#content-left .ebene1 a, #content-left .ebene2 a, #content-left .ebene3 a, #content-left .ebene4 a {
+  background-color: transparent !important;
+  color: inherit !important;
+  border-bottom-color: transparent;
+}
+
+.pages a {
+  display: block;
+  padding-bottom: 0;
+  padding-top: 0;
+  line-height: 2;
+}
+
+.ebene3 a, .ebene4 a {
+  background-color: tra;
+  color: #000000!important;
+  border-bottom-color: transparent;
+  border-left: 0 solid white !important;
+  border-right: 0 solid white !important;
+}
+
+#content-left .menu_wrap .pages a:hover {
+  background-color: white !important;
+  color: #000;
+}
+
+.pages a:hover, .pages:hover {
+  text-decoration: none;
+  -moz-box-shadow: 0px 0px 0 #888888;
+  -webkit-box-shadow: 0px 0px 0 #888888;
+  box-shadow: 0px 0px 0 #888888;
+}
+
+.headerLogo {
+  display: none;
+}
+
+.userLeiste, .navileiste {
+  background: transparent !important;
+  border: 0 solid !important;
+  padding: 1em;
+}
+
+.navileiste td {
+  background: transparent !important;
+  padding-left: 1rem;
+}
+
+#rootline {
+  background: transparent !important;
+}
+
+.switch_view {
+  text-align: left !important;
+}
+
+.footer {
+  background: transparent !important;
+  padding: 1em;
+  color: #4f321f !important;
+}
+
+.se {
+  display: none;
+}
+
+.google {
+  position: absolute;
+  left: 100%;
+}
+
+#switchMobile {
+  padding: 1em !important;
+  text-align: center;
+}
+
+#switchMobile span {
+  color: #4f321f !important;
+}
+
+#suche form {
+  position: relative;
+}
+
+input.link, button[type="submit"] {
+  background: #cf6916;
+  color: #fff;
+  border: 0 solid;
+  border-radius: 2px;
+}
+
+#suche form button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.input {
+  color: #000;
+  border: 1px solid #eeeeee;
+  font-weight: bold;
+  overflow: hidden;
+  width: 170px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+#suche_wrap input, #suche_wrap .cbutton {
+  display: inline-block;
+  height: auto;
+  padding: .5em;
+  margin: 0;
+}
+
+.bn_item {
+  background-color: #fff;
+  border-top: 2px solid #ce6a18;
+}
+
+.bn_item:hover {
+  border-top: 2px solid #4f321f;
+}
+
+.round {
+  border-radius: 0px;
+}
+
+.produktListe_item {
+  background: #fff;
+}
+
+#login {
+  background-color: transparent;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.cbutton span {
+  background: none !important;
+  padding: 0;
+  display: inline-block;
+}
+
+.cbutton:hover {
+  border: 0 solid;
+}
+
+.cbutton, .sbutton, .input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: .5em;
+}
+
+.cbutton {
+  background: #ce6a18 !important;
+  color: white !important;
+  border-radius: 2px;
+}
+
+.cbutton:hover, .cbutton:active {
+  border: 0 solid white;
+  -moz-box-shadow: 0px 0px 0 #444444;
+  -webkit-box-shadow: 0px 0px 0 #444444;
+  box-shadow: 0px 0px 0 #444444;
+}
+
+.cbutton, .sbutton {
+  background: none left repeat-x;
+  border: 0 solid;
+}
+
+#login .input {
+  width: 95%;
+}
