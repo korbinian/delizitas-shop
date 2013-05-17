@@ -462,7 +462,11 @@ td {
 
 .bigfont {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: normal !important;
+}
+
+.cbutton, .sbutton {
+  background: none;
 }
 
 #main {
@@ -638,4 +642,9 @@ td {
   display: block;
   height: auto;
   padding: 0;
+}
+#content-right #suche_wrap .suche_submit {
+  float: none;
+  width: auto;
+  heigh: auto;
 }

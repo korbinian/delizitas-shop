@@ -96,7 +96,11 @@ td {
 
 .bigfont {
     font-size: 1em;
-    font-weight: normal;
+    font-weight: normal !important;
+}
+
+.cbutton, .sbutton {
+    background: none;
 }
 
 /*  LAYOUT
@@ -290,6 +294,11 @@ td {
                     height: auto;
                     padding: 0;
                 }
+            }
+            .suche_submit {
+                float: none;
+                width: auto;
+                heigh: auto;
             }
         }
         
