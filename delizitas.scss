@@ -67,6 +67,10 @@ a:hover {
             text-sahdow: 0 0 0 transparent;
             color: $text-color;
             font-weight: bold;
+            a {
+                text-shadow: 0 0 0 transparent;
+                text-decoration: none;
+            }
         }
         a {
             padding: 0;
@@ -137,6 +141,7 @@ a:hover {
                         padding: 0;
                         position: static;
                         float: left;
+                        margin-right: .5em;
                     }
                     p.minus {
                         background: orange;
@@ -166,6 +171,13 @@ a:hover {
                     &.menu_act {
                         font-weight: bold;
                         background: green;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        -moz-box-shadow: 0 0 0 transparent;
+                        -webkit-box-shadow: 0 0 0 transparent;
+                        box-shadow: 0 0 0 transparent;
+                        background: #fff;
                     }
                 }
             }

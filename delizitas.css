@@ -63,6 +63,10 @@ a:hover {
   color: black;
   font-weight: bold;
 }
+#userLeiste .highlight a {
+  text-shadow: 0 0 0 transparent;
+  text-decoration: none;
+}
 #userLeiste a {
   padding: 0;
   background: none;
@@ -133,6 +137,7 @@ a:hover {
   padding: 0;
   position: static;
   float: left;
+  margin-right: .5em;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.minus {
   background: orange;
@@ -150,6 +155,13 @@ a:hover {
 #content-left .cBoxWrap .menu_wrap .pages.menu_act {
   font-weight: bold;
   background: green;
+}
+#content-left .cBoxWrap .menu_wrap .pages:hover {
+  text-decoration: none;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  background: #fff;
 }
 
 #content-center {
