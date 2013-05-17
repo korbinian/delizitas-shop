@@ -29,10 +29,10 @@ br, *:empty {
 
 #header {
   padding-bottom: 1em;
-  background: url("http://delizitas.de/onlineshop/logo.png") !important;
+  background: url("http://delizitas.de/onlineshop/logo.png");
   height: auto;
   width: 980px;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat;
 }
 #header a {
   display: block;
