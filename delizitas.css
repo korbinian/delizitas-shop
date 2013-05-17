@@ -116,6 +116,7 @@ a:hover {
 }
 #content-left .cBoxWrap .menu_wrap .pages a {
   background: blue;
+  padding: 0;
 }
 
 #content-center {
