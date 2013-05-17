@@ -712,7 +712,7 @@ img {
 #content-right #aktionen .aktion_image {
   float: left;
   width: 32%;
-  height: auti;
+  height: auto;
   text-align: left;
   background-color: transparent;
   border-radius: 0;
@@ -721,4 +721,8 @@ img {
 #content-right #aktionen .aktion_image img {
   display: block;
   max-width: 100%;
+}
+
+.footer {
+  background: brick;
 }

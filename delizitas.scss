@@ -367,7 +367,7 @@ img {
             .aktion_image {
                 float: left;
                 width: 32%;
-                height: auti;
+                height: auto;
                 text-align: left;
                 background-color: transparent;
                 border-radius: $radius;
@@ -381,7 +381,7 @@ img {
     }
 
     .footer {
-
+        background: brick;
     }
 
     .google {
