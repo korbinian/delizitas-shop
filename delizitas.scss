@@ -177,9 +177,9 @@ a:hover {
                     }
                     &:hover {
                         text-decoration: none;
-                        -moz-box-shadow: 0 0 0 transparent;
-                        -webkit-box-shadow: 0 0 0 transparent;
-                        box-shadow: 0 0 0 transparent;
+                        -moz-box-shadow: 0 0 0 transparent !important;
+                        -webkit-box-shadow: 0 0 0 transparent !important;
+                        box-shadow: 0 0 0 transparent !important;
                         background: #fff;
                     }
                 }
