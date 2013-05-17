@@ -24,6 +24,13 @@ br, *:empty {
     background: red !important;
 }
 
+/*  GENERIC
+//////////////////////////////////////////////////////////////////////////////*/
+
+.round {
+    border-radius: $radius;
+}
+
 /*  LAYOUT
 //////////////////////////////////////////////////////////////////////////////*/
 
@@ -231,9 +238,6 @@ border-top: 2px solid #CE6A18;
 border-top: 2px solid #4F321F;
 }
 
-.round {
-    border-radius: 0px;
-}
 
 .produktListe_item {
     background: #fff;
