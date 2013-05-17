@@ -35,6 +35,16 @@ a:hover {
   border-radius: 0;
 }
 
+.highlight {
+  text-shadow: 0 0 0 transparent;
+  color: black;
+  font-weight: bold;
+}
+.highlight a {
+  text-shadow: 0 0 0 transparent;
+  text-decoration: none;
+}
+
 #main {
   width: 980px;
   height: auto;
@@ -58,15 +68,6 @@ a:hover {
   border: 0 solid;
   padding: 0;
   height: auto;
-}
-#userLeiste .highlight {
-  text-sahdow: 0 0 0 transparent;
-  color: black;
-  font-weight: bold;
-}
-#userLeiste .highlight a {
-  text-shadow: 0 0 0 transparent;
-  text-decoration: none;
 }
 #userLeiste a {
   padding: 0;

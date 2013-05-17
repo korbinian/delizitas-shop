@@ -38,6 +38,17 @@ a:hover {
     border-radius: $radius;
 }
 
+.highlight {
+    text-shadow: 0 0 0 transparent;
+    color: $text-color;
+    font-weight: bold;
+    a {
+        text-shadow: 0 0 0 transparent;
+        text-decoration: none;
+    }
+}
+
+
 /*  LAYOUT
 //////////////////////////////////////////////////////////////////////////////*/
 
@@ -64,15 +75,6 @@ a:hover {
         border: 0 solid;
         padding: 0;
         height: auto;
-        .highlight {
-            text-sahdow: 0 0 0 transparent;
-            color: $text-color;
-            font-weight: bold;
-            a {
-                text-shadow: 0 0 0 transparent;
-                text-decoration: none;
-            }
-        }
         a {
             padding: 0;
             background: none;
