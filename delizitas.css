@@ -132,6 +132,8 @@ a:hover {
   background-image: none;
   margin: 0;
   float: left;
+  padding: 0;
+  position: static;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.plus {
   display: block;
@@ -140,6 +142,8 @@ a:hover {
   content: "+ ";
   background-image: none;
   margin: 0;
+  padding: 0;
+  position: static;
 }
 #content-left .cBoxWrap .menu_wrap .pages a {
   background: blue;
