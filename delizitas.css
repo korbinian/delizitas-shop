@@ -78,6 +78,9 @@ a:hover {
   height: auto !important;
   background: transparent !important;
 }
+.navileiste td * {
+  padding: 0;
+}
 .navileiste td #rootline {
   background: transparent;
   font-weight: normal;

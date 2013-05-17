@@ -82,6 +82,9 @@ a:hover {
         td {
             height: auto !important;
             background: transparent !important;
+            * {
+                padding: 0;
+            }
             .switch_view {
 
             }
