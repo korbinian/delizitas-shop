@@ -186,6 +186,7 @@ a:hover {
   height: 12em;
   background-color: #fff;
   background: lime;
+  position: relative;
 }
 #content-center #bnavi .bn_item_wrap .bn_item table {
   width: auto;
@@ -198,10 +199,13 @@ a:hover {
 #content-center #bnavi .bn_item_wrap .bn_item table tr td img {
   text-align: left;
   padding: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 #content-right {
   width: auto;
+  background: transparent;
 }
 
 .headerLogo {

@@ -204,9 +204,10 @@ a:hover {
                     height: 12em;
                     background-color: #fff;
                     background: lime;
+                    position: relative;
                     table {
-width: auto;
-height: auto;
+                        width: auto;
+                        height: auto;
                         tr {
                             td {
                                 a {
@@ -214,9 +215,10 @@ height: auto;
                                     margin: 0;
                                 }
                                 img {
-text-align: left;
-padding: 0;
-
+                                    text-align: left;
+                                    padding: 0;
+                                    position: absolute;
+                                    bottom: 0;
                                 }
                             }
                         }
@@ -228,6 +230,7 @@ padding: 0;
 
     #content-right {
         width: auto;
+        background: transparent;
     }
 
     .footer {
