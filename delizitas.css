@@ -10,6 +10,7 @@ body, td, a {
 
 #main * {
   font-size: 1em !important;
+  line-height: 1.4;
 }
 
 br, *:empty {
@@ -116,7 +117,7 @@ a:hover {
 #content-left .cBoxWrap .menu_wrap {
   padding-top: 0;
   color: black;
-  background-color: transparent;
+  background-color: green;
 }
 #content-left .cBoxWrap .menu_wrap .pages {
   *zoom: 1;
