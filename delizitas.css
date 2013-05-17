@@ -38,6 +38,14 @@ br, *:empty {
   height: 100px;
 }
 
+#userLeiste {
+  background: yellow;
+}
+
+.navileiste {
+  background: orange;
+}
+
 #content-left, #content-center, #content-right {
   padding-top: 0.5em !important;
   border-top: 2px solid #4f321f;
