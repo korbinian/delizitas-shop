@@ -80,8 +80,8 @@ a:hover {
     .navileiste {
         background: orange;
         td {
-            height: auto;
-            background: transparent;
+            height: auto !important;
+            background: transparent !important;
         }
     }
 

@@ -75,8 +75,8 @@ a:hover {
   background: orange;
 }
 .navileiste td {
-  height: auto;
-  background: transparent;
+  height: auto !important;
+  background: transparent !important;
 }
 
 #content-left, #content-center, #content-right {
