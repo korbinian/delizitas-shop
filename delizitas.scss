@@ -156,6 +156,9 @@ a:hover {
                         float: left;
                         display: block;
                         border: 0 solid;
+                        background-color: transparent !important;
+                        color: $link-color !important;
+                        border-bottom-color: transparent;
                     }
                     &.ebene1 {
 
@@ -192,6 +195,8 @@ a:hover {
             text-align: left;
             width: auto;
             .bn_item_wrap {
+                margin: 0;
+                padding: 0;
                 .bn_item {
                     table {
                         tr {
@@ -242,11 +247,6 @@ a:hover {
 
 
 
-#content-left .ebene1 a, #content-left .ebene2 a, #content-left .ebene3 a, #content-left .ebene4 a {
-background-color: transparent !important;
-color: inherit !important;
-border-bottom-color: transparent;
-}
 
 
 
