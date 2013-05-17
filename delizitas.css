@@ -96,10 +96,8 @@ a:hover {
 }
 
 #content-left, #content-center, #content-right {
-  padding-top: 0.5em !important;
+  padding: 0;
   border-top: 2px solid #4f321f;
-  background: rgba(255, 255, 255, 0.5) !important;
-  padding: 1em;
 }
 
 #content-center {
