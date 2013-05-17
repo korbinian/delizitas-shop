@@ -126,6 +126,10 @@ a:hover {
   background: blue;
   padding: 0;
 }
+#content-left .cBoxWrap .menu_wrap .pages.menu_act {
+  font-weight: bold;
+  background: green;
+}
 
 #content-center {
   background: white !important;

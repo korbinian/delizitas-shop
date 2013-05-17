@@ -151,7 +151,10 @@ a:hover {
                     &.ebene4 {
                         
                     }
-
+                    &.menu_act {
+                        font-weight: bold;
+                        background: green;
+                    }
                 }
             }
         }
