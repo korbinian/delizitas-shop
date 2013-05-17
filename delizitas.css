@@ -80,6 +80,8 @@ a:hover {
 }
 .navileiste td #rootline {
   background: transparent;
+  font-weight: normal;
+  padding: 0;
 }
 
 #content-left, #content-center, #content-right {
