@@ -392,6 +392,10 @@ br, *:empty {
   display: none;
 }
 
+br {
+  display: none !important;
+}
+
 *[style] {
   background: red !important;
 }
