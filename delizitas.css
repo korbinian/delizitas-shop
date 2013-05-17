@@ -78,6 +78,9 @@ a:hover {
   height: auto !important;
   background: transparent !important;
 }
+.navileiste td #rootline {
+  background: transparent;
+}
 
 #content-left, #content-center, #content-right {
   padding-top: 0.5em !important;
