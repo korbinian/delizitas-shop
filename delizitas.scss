@@ -24,6 +24,12 @@ br, *:empty {
     background: red !important;
 }
 
+a:hover {
+    text-decoration: none;
+    color: red;
+    @include transition();
+}
+
 /*  GENERIC
 //////////////////////////////////////////////////////////////////////////////*/
 
