@@ -476,6 +476,11 @@ td {
   margin-bottom: 0;
 }
 
+.cbutton span {
+  background: none;
+  padding-left: 0;
+}
+
 #main {
   width: 980px;
   height: auto;
