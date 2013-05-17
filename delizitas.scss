@@ -340,6 +340,21 @@ td {
                 display: block;
             }
         }
+        #aktionen {
+            .aktion_item {
+                display: block;
+                border-bottom: 0 solid;
+                margin-bottom: 0;
+                min-height: auto;
+                padding-top: 0;
+                padding-left: 0;
+                color: $text-color;
+                text-decoration: none;
+                background-color: transparent;
+                background-image: none;
+                height: auto;
+            }
+        }
     }
 
     .footer {
