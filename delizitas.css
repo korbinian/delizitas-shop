@@ -105,17 +105,21 @@ a:hover {
 }
 #content-left .cBoxWrap {
   border-radius: 0;
-  padding: 1em;
+  padding: 0;
   border: 0 solid;
   background: transparent !important;
+}
+#content-left .cBoxWrap .menu_wrap {
+  padding-top: 0;
+  color: black;
+  background-color: transparent;
+}
+#content-left .cBoxWrap .menu_wrap .pages a {
+  background: blue;
 }
 
 #content-center {
   background: white !important;
-}
-
-#navigation_wrap {
-  background: transparent !important;
 }
 
 #content-left .ebene1 a, #content-left .ebene2 a, #content-left .ebene3 a, #content-left .ebene4 a {

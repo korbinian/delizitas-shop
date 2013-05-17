@@ -119,9 +119,38 @@ a:hover {
         width: auto;
         .cBoxWrap {
             border-radius: 0;
-            padding: $p-m;
+            padding: 0;
             border: 0 solid;
             background: transparent !important;
+            .menu_wrap {
+                padding-top: 0;
+                color: $text-color;
+                background-color: transparent;
+                .pages {
+                    p.minus {
+
+                    }
+                    p.plus {
+
+                    }
+                    a {
+                        background: blue;
+                    }
+                    &.ebene1 {
+
+                    }
+                    &.ebene2 {
+                        
+                    }
+                    &.ebene3 {
+                        
+                    }
+                    &.ebene4 {
+                        
+                    }
+
+                }
+            }
         }
     }
 
@@ -162,10 +191,6 @@ a:hover {
     background: #fff !important;
 }
 
-
-#navigation_wrap {
-    background: transparent !important;
-}
 
 #content-left .ebene1 a, #content-left .ebene2 a, #content-left .ebene3 a, #content-left .ebene4 a {
 background-color: transparent !important;
