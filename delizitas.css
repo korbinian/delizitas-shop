@@ -114,6 +114,14 @@ a:hover {
   color: black;
   background-color: transparent;
 }
+#content-left .cBoxWrap .menu_wrap .pages p.minus {
+  display: block;
+  content: "- ";
+}
+#content-left .cBoxWrap .menu_wrap .pages p.plus {
+  display: block;
+  content: "+ ";
+}
 #content-left .cBoxWrap .menu_wrap .pages a {
   background: blue;
   padding: 0;

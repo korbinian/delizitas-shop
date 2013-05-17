@@ -128,10 +128,12 @@ a:hover {
                 background-color: transparent;
                 .pages {
                     p.minus {
-
+                        display: block;
+                        content: "- ";
                     }
                     p.plus {
-
+                        display: block;
+                        content: "+ ";
                     }
                     a {
                         background: blue;
