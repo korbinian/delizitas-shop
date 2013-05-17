@@ -57,6 +57,9 @@ a:hover {
   background: transparent url("http://delizitas.de/onlineshop/logo.png") no-repeat !important;
   height: auto;
 }
+#header .headerLogo {
+  display: none;
+}
 #header a {
   display: block;
   width: auto;
@@ -207,122 +210,6 @@ a:hover {
   width: auto;
   background: transparent;
 }
-
-.headerLogo {
-  display: none;
-}
-
-#rootline {
-  background: transparent !important;
-}
-
-.switch_view {
-  text-align: left !important;
-}
-
-.footer {
-  background: transparent !important;
-  padding: 1em;
-  color: #4f321f !important;
-}
-
-.se {
-  display: none;
-}
-
-.google {
-  position: absolute;
-  left: 100%;
-}
-
-#switchMobile {
-  padding: 1em !important;
-  text-align: center;
-}
-
-#switchMobile span {
-  color: #4f321f !important;
-}
-
-#suche form {
-  position: relative;
-}
-
-input.link, button[type="submit"] {
-  background: #cf6916;
-  color: #fff;
-  border: 0 solid;
-  border-radius: 2px;
-}
-
-#suche form button[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.input {
-  color: #000;
-  border: 1px solid #eeeeee;
-  font-weight: bold;
-  overflow: hidden;
-  width: 170px;
-  padding-top: 0;
-  padding-bottom: 0;
-  line-height: 1;
-}
-
-#suche_wrap input, #suche_wrap .cbutton {
-  display: inline-block;
-  height: auto;
-  padding: .5em;
+#content-right #suche_wrap #suche {
   margin: 0;
-}
-
-.produktListe_item {
-  background: #fff;
-}
-
-#login {
-  background-color: transparent;
-  padding-top: 0;
-  padding-left: 0;
-}
-
-.cbutton span {
-  background: none !important;
-  padding: 0;
-  display: inline-block;
-}
-
-.cbutton:hover {
-  border: 0 solid;
-}
-
-.cbutton, .sbutton, .input {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  padding: .5em;
-}
-
-.cbutton {
-  background: #ce6a18 !important;
-  color: white !important;
-  border-radius: 2px;
-}
-
-.cbutton:hover, .cbutton:active {
-  border: 0 solid white;
-  -moz-box-shadow: 0px 0px 0 #444444;
-  -webkit-box-shadow: 0px 0px 0 #444444;
-  box-shadow: 0px 0px 0 #444444;
-}
-
-.cbutton, .sbutton {
-  background: none left repeat-x;
-  border: 0 solid;
-}
-
-#login .input {
-  width: 95%;
 }

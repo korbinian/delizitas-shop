@@ -63,6 +63,9 @@ a:hover {
         padding-bottom: $p-m;
         background: transparent url('http://delizitas.de/onlineshop/logo.png') no-repeat !important;
         height: auto;
+        .headerLogo {
+            display: none;
+        }
         a {
             display: block;
             width: auto;
@@ -231,6 +234,11 @@ a:hover {
     #content-right {
         width: auto;
         background: transparent;
+        #suche_wrap {
+            #suche {
+                margin: 0;
+            }
+        }
     }
 
     .footer {
@@ -263,132 +271,4 @@ a:hover {
 
 
 
-.headerLogo {
-    
-    display: none;
-}
-
-#rootline {
-    background: transparent !important;
-}
-
-.switch_view {
-    text-align: left !important;
-
-}
-
-
-.footer {
-    background: transparent !important;
-    padding:1em;
-    color: #4F321F !important;
-}
-
-.se {
-    display: none;
-}
-
-
-.google {
-    position: absolute;
-    left: 100%;
-}
-
-#switchMobile {
-    padding: 1em !important;
-    text-align: center;
-}
-
-#switchMobile span {
-
-    color: #4F321F !important;
-}
-
-#suche form {
-    position: relative;
-}
-
-
-input.link, button[type="submit"] {
-    background: rgb(207, 105, 22);
-    color: #fff;
-    border: 0 solid;
-    border-radius: 2px;
-    
-}
-
-#suche form button[type="submit"]{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.input {
-color: #000;
-border: 1px solid #eee;
-font-weight: bold;
-overflow: hidden;
-width: 170px;
-padding-top: 0;
-padding-bottom: 0;
-line-height: 1;
-}
-
-#suche_wrap input, #suche_wrap .cbutton {
-display: inline-block;
-height: auto;
-padding: .5em;
-margin: 0;
-}
-
-
-
-.produktListe_item {
-    background: #fff;
-}
-
-#login {
-background-color: transparent;
-padding-top: 0;
-padding-left: 0;
-}
-
-.cbutton span {
-    background: none !important;
-    padding: 0;
-    display: inline-block;
-}
-
-
-.cbutton:hover {
-    border: 0 solid;
-}
-
-.cbutton, .sbutton, .input {
--webkit-border-radius: 0;
-border-radius: 0;
-padding: .5em;
-}
-
-.cbutton {
-    background: #CE6A18 !important;
-    color: #fff !important;
-    border-radius: 2px;
-}
-
-.cbutton:hover, .cbutton:active {
-border: 0 solid #fff;
--moz-box-shadow: 0px 0px 0 #444;
--webkit-box-shadow: 0px 0px 0 #444;
-box-shadow: 0px 0px 0 #444;
-}
-
-.cbutton, .sbutton {
-background: none left repeat-x;
-border: 0 solid;
-}
-
-#login .input {
-width: 95%;
-}
 
