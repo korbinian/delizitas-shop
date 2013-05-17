@@ -130,10 +130,12 @@ a:hover {
                     p.minus {
                         display: block;
                         content: "- ";
+                        background: green;
                     }
                     p.plus {
                         display: block;
                         content: "+ ";
+                        background: green;
                     }
                     a {
                         background: blue;

@@ -117,10 +117,12 @@ a:hover {
 #content-left .cBoxWrap .menu_wrap .pages p.minus {
   display: block;
   content: "- ";
+  background: green;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.plus {
   display: block;
   content: "+ ";
+  background: green;
 }
 #content-left .cBoxWrap .menu_wrap .pages a {
   background: blue;
