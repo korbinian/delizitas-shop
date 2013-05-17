@@ -666,3 +666,6 @@ td {
   background-image: none;
   padding: 0;
 }
+#content-right #login *:empty {
+  display: block;
+}

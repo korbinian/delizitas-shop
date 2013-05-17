@@ -319,6 +319,9 @@ td {
             background-color: transparent;
             background-image: none;
             padding: 0;
+            *:empty {
+                display: block;
+            }
         }
     }
 
