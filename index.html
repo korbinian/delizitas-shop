@@ -1,117 +1,38 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
-<link rel="shortcut icon" href="/logos/835wasse/favicon.ico">
 
-<script type="text/javascript">var httpHost='http://www.delizitas.abo-kiste.com';</script>
-<script type="text/javascript" src="/web/height.js"></script><style type="text/css"></style><style type="text/css">body{height:900px;}</style>
-<meta http-equiv="expires" content="Mon, 4 Mar 2011 23:58:00 GMT">
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="description" content="Wir schwärmen für Bio">
-<meta name="robots" content="index, follow">
-<meta name="keywords" content="onlineshop, bioprodukte, lieferservice, bestellen">
-<meta name="language" content="de">
-<meta http-equiv="X-UA-Compatible" content="IE=8">
-
-
-
-<script type="text/javascript" src="/web/js/shop.js?v=14"></script>
-<script type="text/javascript" src="/web/js/keyboard.js"></script>
-<link rel="stylesheet" type="text/css" media="screen" href="/web/css/main.css?v=17">
-<link rel="stylesheet" type="text/css" media="screen" href="http://www.delizitas.de/onlineshop/delizitas.css"> 
-
-
-
-
-<title>Shop - Delizitas - Wir schwärmen für Bio</title>
-<script type="text/javascript" src="/web/sf/prototype/js/prototype.js"></script>
-<script type="text/javascript" src="/web/sf/prototype/js/effects.js"></script>
-<script type="text/javascript" src="/web/sf/prototype/js/scriptaculous.js"></script><script type="text/javascript" src="http://www.delizitas.abo-kiste.com/web/sf/prototype/js/builder.js"></script><script type="text/javascript" src="http://www.delizitas.abo-kiste.com/web/sf/prototype/js/effects.js"></script><script type="text/javascript" src="http://www.delizitas.abo-kiste.com/web/sf/prototype/js/dragdrop.js"></script><script type="text/javascript" src="http://www.delizitas.abo-kiste.com/web/sf/prototype/js/controls.js"></script><script type="text/javascript" src="http://www.delizitas.abo-kiste.com/web/sf/prototype/js/slider.js"></script><script type="text/javascript" src="http://www.delizitas.abo-kiste.com/web/sf/prototype/js/sound.js"></script>
-<script type="text/javascript" src="/web/sf/prototype/js/builder.js"></script>
-</head>
-<body onload="draginit()" onkeydown="try{keyPressHandler(trapWindow,event)}catch(err){}" onmousedown="setMouseDown()" onscroll="checkScroll()">
+<body>
 
 <div id="alertOnClose"></div>
 <div id="debug"></div>
-
-<style>
-#content-center,.google{
-  background:#fff;
-}
-#rootline,.userLeiste{
-  background-color:#fff;
-}
-tr.navileiste a,.userLeiste a,.userLeiste span,#rootline_wrap a,#rootline_wrap span,#static_links{
-  color:;
-}
-#rootl-center{
-  background:#fff;
-}
-body{
-  background-color:#FFF;
-}
-
-.ebene1 a{
-  background-color:#ffffff;
-  color:#000000!important;
-  border-bottom-color:#ffffff;
-}
-.ebene2 a{
-  background-color:#ffffff;
-  color:#000000!important;
-  border-bottom-color:#ffffff;
-}
-.ebene3 a,.ebene4 a{
-  background-color:#ffffff;
-  color:#000000!important;
-  border-bottom-color:#ffffff;
-  border-left:1px solid #ffffff;
-  border-right:1px solid #ffffff;
-}
-.pages{
-  color:#000000;
-}
-#link_home{
-  font-weight:bold;
-  position:relative;
-  top:px;
-  left:px;
-}
-#link_home a{
-  color:#FFF;
-}
-</style>
-
 <div id="bubble"></div>
 <div id="overlay" style="display:none"></div>
 <div id="addCartInfo" style="display:none"></div>
 <div id="aktionInfo" style="display:none">
-<div class="cBoxWrap" style="background-color:#efefef;border-color:#efefef;">
-<div class="cBoxTop"></div>
-<div class="innerBox" id="aktionInfoInner" style="border:none">
+    <div class="cBoxWrap" style="background-color:#efefef;border-color:#efefef;">
+        <div class="cBoxTop"></div>
+        <div class="innerBox" id="aktionInfoInner" style="border:none"></div>
+    </div>
 </div>
-  </div>
-</div>
 
-<table cellspacing="0" cellpadding="0" align="center" id="main">
-<tbody><tr>
-<td id="header" colspan="3" style="vertical-align:top;">
-<div id="info"></div>
-
-<div class="abs"><div id="allergie_info"></div></div>
-<noscript>&lt;div class="noscript"&gt;Javascript ist bei Ihrem Browser deaktiviert!&lt;br/&gt;Bitte aktivieren Sie Javascript um den Shop in vollem Umfang nutzen zu k&amp;ouml;nnen.&lt;/div&gt;</noscript>
-
-<a href="http://www.delizitas.abo-kiste.com"><img class="headerLogo" src="/logos/835wasse/header.jpg" alt="Delizitas" title="Delizitas" usemap="#homeurl"></a><map name="homeurl"><area style="border:1px solid black" href="" title="Zur Homepage" coords="" shape="rect"></map></td>
-</tr>
-
-<tr>
-<td colspan="3">
-<div class="userLeiste" id="userLeiste">
-<span class="link highlight" onclick="focusLogin();">Einloggen</span> 
-<a href="#" onclick="notLoggedIn()">Liefertermin auswählen</a>
-<a href="#" onclick="notLoggedIn()">Warenkorb bearbeiten</a>
-<a href="#" onclick="notLoggedIn()">Warenkorb bestätigen</a>
-
-<br style="clear:both"></div>
+<table id="main">
+    <tbody>
+        <tr>
+            <td id="header">
+                <div id="info"></div>
+                <div class="abs"><div id="allergie_info"></div></div>
+                <a href="http://www.delizitas.abo-kiste.com">
+                    <img class="headerLogo" src="/logos/835wasse/header.jpg" alt="Delizitas" title="Delizitas" usemap="#homeurl">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="userLeiste" id="userLeiste">
+                    <span class="link highlight" onclick="focusLogin();">Einloggen</span> 
+                    <a href="#" onclick="notLoggedIn()">Liefertermin auswählen</a>
+                    <a href="#" onclick="notLoggedIn()">Warenkorb bearbeiten</a>
+                    <a href="#" onclick="notLoggedIn()">Warenkorb bestätigen</a>
+                    <br style="clear:both">
+                </div>
 </td>
 </tr>
 
