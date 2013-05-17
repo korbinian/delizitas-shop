@@ -485,6 +485,14 @@ td {
   padding-left: 0;
 }
 
+.aktionen_btn {
+  display: block!important;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em !important;
+  margin-bottom: 0;
+}
+
 #main {
   width: 980px;
   height: auto;
