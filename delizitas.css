@@ -74,6 +74,10 @@ a:hover {
 .navileiste {
   background: orange;
 }
+.navileiste td {
+  height: auto;
+  background: transparent;
+}
 
 #content-left, #content-center, #content-right {
   padding-top: 0.5em !important;

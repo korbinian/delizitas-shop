@@ -58,7 +58,6 @@ a:hover {
         }
     }
 
-
     #userLeiste {
         background: yellow;
         border: 0 solid;
@@ -80,6 +79,10 @@ a:hover {
 
     .navileiste {
         background: orange;
+        td {
+            height: auto;
+            background: transparent;
+        }
     }
 
     #content-left {
