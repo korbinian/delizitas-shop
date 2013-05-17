@@ -16,7 +16,7 @@ body, td, a, .pages .ebene2 a {
 }
 
 
-br {
+br, *:empty {
     display: none;
 }
 
@@ -24,50 +24,57 @@ br {
     background: red !important;
 }
 
-*:empty {
-    display: none;
-    }
-
 /*  LAYOUT
 //////////////////////////////////////////////////////////////////////////////*/
 
 #main {
-
-}
-
-#header {
-
-}
-
-#userLeiste {
-
-}
-
-.navileiste {
-
-}
-
-#content-left {
-
-}
-
-#content-center {
-
-}
-
-#content-right {
-
-}
-
-
-
-#main {
     width: 980px;
-    height: 90%;
+    height: auto;
     border: 0 solid #fff;
-    padding: 1em;
+    padding: $p-m;
+}
+
+    #header {
+
+    }
+
+
+    #userLeiste {
+
+    }
+
+    .navileiste {
+
+    }
+
+    #content-left {
+
+    }
+
+    #content-center {
+
+    }
+
+    #content-right {
+
+    }
+
+    .footer {
+
+    }
+
+    .google {
+
+    }
+
+#switchMobile {
 
 }
+
+#scrollTop {
+
+}
+
 
 #header {
     height: auto;

@@ -12,7 +12,7 @@ body, td, a, .pages .ebene2 a {
   font-size: 1em !important;
 }
 
-br {
+br, *:empty {
   display: none;
 }
 
@@ -20,13 +20,9 @@ br {
   background: red !important;
 }
 
-*:empty {
-  display: none;
-}
-
 #main {
   width: 980px;
-  height: 90%;
+  height: auto;
   border: 0 solid white;
   padding: 1em;
 }
