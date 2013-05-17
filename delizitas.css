@@ -57,6 +57,9 @@ br, *:empty {
   padding: 0;
   background: none;
 }
+#userLeiste a:before {
+  content: " / ";
+}
 
 .navileiste {
   background: orange;
