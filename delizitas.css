@@ -48,6 +48,15 @@ br, *:empty {
   padding: 0;
   height: auto;
 }
+#userLeiste .highlight {
+  text-sahdow: 0 0 0 transparent;
+  color: black;
+  font-weight: bold;
+}
+#userLeiste a {
+  padding: 0;
+  background: none;
+}
 
 .navileiste {
   background: orange;
