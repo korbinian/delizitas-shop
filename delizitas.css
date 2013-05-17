@@ -20,6 +20,10 @@ br {
   background: red !important;
 }
 
+*:empty {
+  display: none;
+}
+
 #main {
   width: 980px;
   height: 90%;
