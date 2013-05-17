@@ -720,4 +720,5 @@ img {
 }
 #content-right #aktionen .aktion_image img {
   display: block;
+  max-width: 100%;
 }
