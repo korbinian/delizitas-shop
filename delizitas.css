@@ -31,8 +31,6 @@ br, *:empty {
   padding-bottom: 1em;
   background: transparent url("http://delizitas.de/onlineshop/logo.png") no-repeat !important;
   height: auto;
-  width: 980px;
-  background-repeat: no-repeat;
 }
 #header a {
   display: block;
