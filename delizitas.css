@@ -124,26 +124,20 @@ a:hover {
 #content-left .cBoxWrap .menu_wrap .pages:after {
   clear: both;
 }
-#content-left .cBoxWrap .menu_wrap .pages p.minus {
+#content-left .cBoxWrap .menu_wrap .pages p {
   display: block;
   width: 1em;
   height: 1em;
   background-image: none;
-  background: orange;
   margin: 0;
-  float: left;
   padding: 0;
   position: static;
+  float: left;
+}
+#content-left .cBoxWrap .menu_wrap .pages p.minus {
+  background: orange;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.plus {
-  display: block;
-  width: 1em;
-  height: 1em;
-  content: "+ ";
-  background-image: none;
-  margin: 0;
-  padding: 0;
-  position: static;
   background: green;
 }
 #content-left .cBoxWrap .menu_wrap .pages a {

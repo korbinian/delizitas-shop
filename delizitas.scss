@@ -128,26 +128,20 @@ a:hover {
                 background-color: transparent;
                 .pages {
                     @include clearfix();
-                    p.minus {
+                    p {
                         display: block;
                         width: 1em;
                         height: 1em;
                         background-image: none;
-                        background: orange;
                         margin: 0;
-                        float: left;
                         padding: 0;
                         position: static;
+                        float: left;
+                    }
+                    p.minus {
+                        background: orange;
                     }
                     p.plus {
-                        display: block;
-                        width: 1em;
-                        height: 1em;
-                        content: "+ ";
-                        background-image: none;
-                        margin: 0;
-                        padding: 0;
-                        position: static;
                         background: green;
                     }
                     a {
