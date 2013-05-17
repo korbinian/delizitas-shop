@@ -75,6 +75,30 @@ td {
     border-radius: $radius;
 }
 
+.cbutton {
+    border: 0 solid;
+    color: $link-color;
+    cursor: pointer;
+    cursor: hand;
+    font-size: $fs-m;
+    min-height: auto;
+    min-width: auto;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.cbutton:hover, .cbutton:active {
+    border: 0 solid ;
+    -moz-box-shadow: 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+.bigfont {
+    font-size: 1em;
+    font-weight: normal;
+}
+
 /*  LAYOUT
 //////////////////////////////////////////////////////////////////////////////*/
 
