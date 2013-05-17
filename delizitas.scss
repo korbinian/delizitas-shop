@@ -28,14 +28,23 @@ br, *:empty {
 //////////////////////////////////////////////////////////////////////////////*/
 
 #main {
-    width: 980px;
+    width: $page-width;
     height: auto;
     border: 0 solid #fff;
     padding: $p-m;
 }
 
     #header {
-
+        padding-bottom: 1em;
+        background: url('http://delizitas.de/onlineshop/logo.png') !important;
+        height: auto;
+        width: 980px;
+        background-repeat: no-repeat !important;
+        a {
+            display: block;
+            width: $page-width;
+            height: 100px;
+        }
     }
 
 
@@ -77,20 +86,10 @@ br, *:empty {
 
 
 #header {
-    height: auto;
-    background: transparent;
-    padding-bottom: 1em;
-    background: url('http://delizitas.de/onlineshop/logo.png') !important;
-    height: 99px;
-    width: 980px;
-    background-repeat: no-repeat !important;
+    
 }
 
-#header a {
-    display: block;
-    width: 980px;
-    height: 100px;
-}
+
 
 #content-left, #content-center, #content-right {
     padding-top: .5em !important;
