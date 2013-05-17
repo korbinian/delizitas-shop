@@ -698,4 +698,6 @@ td {
   background-color: transparent;
   background-image: none;
   height: auto;
+  float: left;
+  width: 100%;
 }
