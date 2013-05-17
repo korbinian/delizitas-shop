@@ -643,6 +643,12 @@ td {
   height: auto;
   padding: 0;
 }
+#content-right #suche_wrap #suche input[type="text"] {
+  width: 100%;
+}
+#content-right #suche_wrap #suche button[type="submit"] {
+  width: 100%;
+}
 #content-right #suche_wrap .suche_submit {
   float: none;
   width: auto;

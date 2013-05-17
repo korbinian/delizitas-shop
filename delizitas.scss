@@ -293,6 +293,13 @@ td {
                     display: block;
                     height: auto;
                     padding: 0;
+
+                }
+                input[type="text"] {
+                    width: 100%;
+                }
+                button[type="submit"] {
+                    width: 100%;
                 }
             }
             .suche_submit {
