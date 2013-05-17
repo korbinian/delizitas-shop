@@ -151,12 +151,11 @@ a:hover {
                         background: green;
                     }
                     a {
-                        background: blue;
                         padding: 0;
                         float: left;
                         display: block;
                         border: 0 solid;
-                        background-color: transparent !important;
+                        background-color: yellow !important;
                         color: $link-color !important;
                         border-bottom-color: transparent;
                     }

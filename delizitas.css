@@ -147,12 +147,11 @@ a:hover {
   background: green;
 }
 #content-left .cBoxWrap .menu_wrap .pages a {
-  background: blue;
   padding: 0;
   float: left;
   display: block;
   border: 0 solid;
-  background-color: transparent !important;
+  background-color: yellow !important;
   color: black !important;
   border-bottom-color: transparent;
 }
