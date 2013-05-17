@@ -118,11 +118,13 @@ a:hover {
   display: block;
   content: "- ";
   background: green;
+  background-image: none;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.plus {
   display: block;
   content: "+ ";
   background: green;
+  background-image: none;
 }
 #content-left .cBoxWrap .menu_wrap .pages a {
   background: blue;

@@ -131,11 +131,13 @@ a:hover {
                         display: block;
                         content: "- ";
                         background: green;
+                        background-image: none;
                     }
                     p.plus {
                         display: block;
                         content: "+ ";
                         background: green;
+                        background-image: none;
                     }
                     a {
                         background: blue;
