@@ -16,6 +16,10 @@ br {
   display: none;
 }
 
+*[style] {
+  background: red !important;
+}
+
 #main {
   width: 980px;
   height: 90%;
