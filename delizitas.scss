@@ -241,8 +241,14 @@ td {
         #suche_wrap {
             #suche {
                 margin: 0;
+                input, .cbutton {
+                    display: block;
+                    height: auto;
+                    padding: 0;
+                }
             }
         }
+        
     }
 
     .footer {

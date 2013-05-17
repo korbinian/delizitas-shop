@@ -585,3 +585,8 @@ td {
 #content-right #suche_wrap #suche {
   margin: 0;
 }
+#content-right #suche_wrap #suche input, #content-right #suche_wrap #suche .cbutton {
+  display: block;
+  height: auto;
+  padding: 0;
+}
