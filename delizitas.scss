@@ -356,6 +356,22 @@ td {
                 float: left;
                 width: 100%;
             }
+            .aktion_name {
+                float: left;
+                width: 68%;
+            }
+            .aktion_image {
+                float: right;
+                width: 32%;
+                height: auti;
+                text-align: left;
+                background-color: transparent;
+                border-radius: $radius;
+                box-shadow: 0 0 0 transparent;
+                img {
+                    display: block;
+                }
+            }
         }
     }
 

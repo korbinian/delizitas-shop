@@ -701,3 +701,19 @@ td {
   float: left;
   width: 100%;
 }
+#content-right #aktionen .aktion_name {
+  float: left;
+  width: 68%;
+}
+#content-right #aktionen .aktion_image {
+  float: right;
+  width: 32%;
+  height: auti;
+  text-align: left;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: 0 0 0 transparent;
+}
+#content-right #aktionen .aktion_image img {
+  display: block;
+}
