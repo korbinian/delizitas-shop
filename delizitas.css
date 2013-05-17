@@ -178,6 +178,7 @@ a:hover {
 #content-center #bnavi .bn_item_wrap {
   margin: 0;
   padding: 0;
+  width: 25%;
 }
 #content-center #bnavi .bn_item_wrap .bn_item table tr td a {
   padding: 0;
