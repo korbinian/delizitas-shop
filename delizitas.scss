@@ -132,8 +132,8 @@ a:hover {
                         display: block;
                         width: 1em;
                         height: 1em;
-                        content: "- ";
                         background-image: none;
+                        background: orange;
                         margin: 0;
                         float: left;
                         padding: 0;
@@ -148,6 +148,7 @@ a:hover {
                         margin: 0;
                         padding: 0;
                         position: static;
+                        background: green;
                     }
                     a {
                         background: blue;
