@@ -86,6 +86,11 @@ a:hover {
 .navileiste td #rootline #rootline_wrap {
   margin: 0;
 }
+.navileiste td #static_links {
+  text-align: left;
+  color: black;
+  padding: 0;
+}
 
 #content-left, #content-center, #content-right {
   padding-top: 0.5em !important;

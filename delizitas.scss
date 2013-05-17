@@ -96,6 +96,14 @@ a:hover {
                     }
                 }
             }
+            #static_links {
+                text-align: left;
+                color: $text-color;
+                padding: 0;
+                a {
+
+                }
+            }
         }
     }
 
