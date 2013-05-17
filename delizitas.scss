@@ -129,12 +129,16 @@ a:hover {
                 .pages {
                     p.minus {
                         display: block;
+                        width: 1em;
+                        height: 1em;
                         content: "- ";
                         background-image: none;
                         margin: 0;
                     }
                     p.plus {
                         display: block;
+                        width: 1em;
+                        height: 1em;
                         content: "+ ";
                         background-image: none;
                         margin: 0;

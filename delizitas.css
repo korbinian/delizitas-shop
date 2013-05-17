@@ -116,12 +116,16 @@ a:hover {
 }
 #content-left .cBoxWrap .menu_wrap .pages p.minus {
   display: block;
+  width: 1em;
+  height: 1em;
   content: "- ";
   background-image: none;
   margin: 0;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.plus {
   display: block;
+  width: 1em;
+  height: 1em;
   content: "+ ";
   background-image: none;
   margin: 0;
