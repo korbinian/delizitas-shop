@@ -116,7 +116,13 @@ a:hover {
     }
 
     #content-left {
-
+        width: auto;
+        .cBoxWrap {
+            border-radius: 0;
+            padding: $p-m;
+            border: 0 solid;
+            background: transparent !important;
+        }
     }
 
     #content-center {
@@ -156,12 +162,6 @@ a:hover {
     background: #fff !important;
 }
 
-#content-left .cBoxWrap {
-border-radius: 0;
-padding: 1em;
-border: 0 solid #efefef;
-background: transparent !important;
-}
 
 #navigation_wrap {
     background: transparent !important;
