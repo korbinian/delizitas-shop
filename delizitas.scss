@@ -127,6 +127,7 @@ a:hover {
                 color: $text-color;
                 background-color: transparent;
                 .pages {
+                    @include clearfix();
                     p.minus {
                         display: block;
                         width: 1em;
@@ -134,6 +135,7 @@ a:hover {
                         content: "- ";
                         background-image: none;
                         margin: 0;
+                        float: left;
                     }
                     p.plus {
                         display: block;
@@ -146,6 +148,8 @@ a:hover {
                     a {
                         background: blue;
                         padding: 0;
+                        float: left;
+                        display: block;
                     }
                     &.ebene1 {
 

@@ -114,6 +114,16 @@ a:hover {
   color: black;
   background-color: transparent;
 }
+#content-left .cBoxWrap .menu_wrap .pages {
+  *zoom: 1;
+}
+#content-left .cBoxWrap .menu_wrap .pages:before, #content-left .cBoxWrap .menu_wrap .pages:after {
+  content: " ";
+  display: table;
+}
+#content-left .cBoxWrap .menu_wrap .pages:after {
+  clear: both;
+}
 #content-left .cBoxWrap .menu_wrap .pages p.minus {
   display: block;
   width: 1em;
@@ -121,6 +131,7 @@ a:hover {
   content: "- ";
   background-image: none;
   margin: 0;
+  float: left;
 }
 #content-left .cBoxWrap .menu_wrap .pages p.plus {
   display: block;
@@ -133,6 +144,8 @@ a:hover {
 #content-left .cBoxWrap .menu_wrap .pages a {
   background: blue;
   padding: 0;
+  float: left;
+  display: block;
 }
 #content-left .cBoxWrap .menu_wrap .pages.menu_act {
   font-weight: bold;
