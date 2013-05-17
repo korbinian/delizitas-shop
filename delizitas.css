@@ -83,6 +83,9 @@ a:hover {
   font-weight: normal;
   padding: 0;
 }
+.navileiste td #rootline #rootline_wrap {
+  margin: 0;
+}
 
 #content-left, #content-center, #content-right {
   padding-top: 0.5em !important;
