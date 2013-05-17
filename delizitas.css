@@ -12,6 +12,10 @@ body, td, a, .pages .ebene2 a {
   font-size: 1em !important;
 }
 
+* {
+  color: red;
+}
+
 #main {
   width: 980px;
   height: 90%;
