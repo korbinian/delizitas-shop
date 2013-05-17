@@ -2,6 +2,10 @@
 @import "config";
 @import "normalize";
 
+* {
+    @include box-sizing(border-box);
+}
+
 body {
     background: rgb(240, 235, 214) url('http://delizitas.de/onlineshop/satin-light.png') !important;
     border-top: 2px solid #4F321F;
@@ -53,6 +57,23 @@ td {
     }
 }
 
+.si {
+    width: auto;
+}
+
+.input {
+    color: #000;
+    border: 0 solid;
+    font-weight: normal;
+    width: auto;
+    padding: 0;
+}
+
+
+.cbutton, .sbutton, .input {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
 
 /*  LAYOUT
 //////////////////////////////////////////////////////////////////////////////*/
@@ -101,7 +122,7 @@ td {
                 padding: 0;
             }
             .switch_view {
-
+                text-align: left;
             }
             #rootline {
                 background: transparent;
@@ -152,7 +173,6 @@ td {
                         padding: 0;
                         position: static;
                         float: left;
-                        margin-right: .5em;
                     }
                     p.minus {
                         background: orange;
