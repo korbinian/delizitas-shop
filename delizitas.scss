@@ -6,7 +6,7 @@ body {
     border-top: 2px solid #4F321F;
 }
 
-body, td, a, .pages .ebene2 a {
+body, td, a {
     font-family: georgia, serif;
     color: #51361F !important;
 }
@@ -198,32 +198,7 @@ color: inherit !important;
 border-bottom-color: transparent;
 }
 
-.pages a {
-display: block;
-padding-bottom: 0;
-padding-top: 0;
-line-height: 2;
-}
 
-.ebene3 a, .ebene4 a {
-background-color: tra;
-color: #000000!important;
-border-bottom-color: transparent;
-border-left: 0 solid #ffffff !important;
-border-right: 0 solid #ffffff !important;
-}
-
-
-#content-left .menu_wrap .pages a:hover {
-  background-color:#fff !important;
-  color:#000;
-}
-.pages a:hover,.pages:hover{
-  text-decoration:none;
-  -moz-box-shadow:0px 0px 0 #888;
-  -webkit-box-shadow:0px 0px 0 #888;
-  box-shadow:0px 0px 0 #888;
-}
 
 .headerLogo {
     
