@@ -178,7 +178,11 @@ a:hover {
 #content-center #bnavi .bn_item_wrap {
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 20%;
+}
+#content-center #bnavi .bn_item_wrap .bn_item {
+  width: 100%;
+  height: 8em;
 }
 #content-center #bnavi .bn_item_wrap .bn_item table tr td a {
   padding: 0;
