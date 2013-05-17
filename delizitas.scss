@@ -130,14 +130,14 @@ a:hover {
                     p.minus {
                         display: block;
                         content: "- ";
-                        background: green;
                         background-image: none;
+                        margin: 0;
                     }
                     p.plus {
                         display: block;
                         content: "+ ";
-                        background: green;
                         background-image: none;
+                        margin: 0;
                     }
                     a {
                         background: blue;
